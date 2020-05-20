@@ -1,0 +1,37 @@
+{
+  "name": "webpacklearn2",
+  "sideEffects": [
+    "*.css"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "w",
+  "license": "ISC",
+  "dependencies": {
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset": "^1.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^4.2.0",
+    "jquery": "^3.5.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "style-loader": "^1.2.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0"
+  }
+}
