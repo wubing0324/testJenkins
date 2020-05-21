@@ -14,7 +14,7 @@ function getComponent() {
   return import(/* webpackChunkName: "lodash" */ 'lodash').then(_ => {
     var element = document.createElement('div');
 
-    element.innerHTML = _.join(['Hello', 'webpack1111111', 'cube =' + cube(5), 'one=' + one()], ' ');
+    element.innerHTML = _.join(['Hello', 'webpack11111112222222222222222222', 'cube =' + cube(5), 'one=' + one()], ' ');
 
     return element;
 
